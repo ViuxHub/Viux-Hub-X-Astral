@@ -256,3 +256,15 @@ Tab:AddButton({
 Name = <string> - The name of the button.
 Callback = <function> - The function of the button.
 ]]
+
+Tab:AddButton({
+	Name = "The Stronggest Battle Ground",
+	Callback = function()
+      		loadstring(game:HttpGet("https://pastebin.com/raw/kTMDZqWk"))()
+  	end    
+})
+
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+]]
