@@ -280,3 +280,15 @@ Tab:AddButton({
 Name = <string> - The name of the button.
 Callback = <function> - The function of the button.
 ]]
+
+Tab:AddButton({
+	Name = "Vexam",
+	Callback = function()
+      		loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/6af56c1753ac6679dee3acbd1fd952e5.lua"))()
+  	end    
+})
+
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+]]
