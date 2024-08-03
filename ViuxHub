@@ -90,7 +90,7 @@ Tab:AddButton({
 
 --[[
 Name = <string> - The name of the button.
-Callback = <function> - The function of the button.
+Callback = <functi]on> - The function of the button.
 ]]
 
 Tab:AddButton({
