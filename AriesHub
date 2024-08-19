@@ -1359,8 +1359,21 @@ tab.create_toggle({
 	section = 'left',
 	enabled = false,
 
-	callback = function(state: boolean)
-		print(`{state}`)
+	callback = function()
+	end
+})
+tab.create_title({
+	name = 'HitSound',
+	section = 'left'
+})
+tab.create_toggle({
+	name = 'Enabled',
+	flag = 'hitsound',
+
+	section = 'left',
+	enabled = false,
+
+	callback = function()
 	end
 })
 return library
